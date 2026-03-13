@@ -70,9 +70,9 @@ if "history" not in st.session_state:
     st.session_state.history = []
 
 st.subheader("Make a guess")
-
+# Fixed by me with copilot pointing it out
 st.info(
-    f"Guess a number between 1 and 100. "
+    f"Guess a number between 1 and {get_range_for_difficulty(difficulty)[1]}. "
     f"Attempts left: {attempt_limit - st.session_state.attempts}"
 )
 

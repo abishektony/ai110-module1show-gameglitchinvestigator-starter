@@ -55,6 +55,8 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 
+  The streamlit reruns everytime a button is pressed or a number is typed. So it basically reloads with every interactions the user does. Because of this all the variables are lost or reset to their initial value, thus we use session state. It stores the values in the browsers session and which remembers values during reruns. One example of usecase would be to track attempts as it should lower as we guess.
+
 ---
 
 ## 5. Looking ahead: your developer habits
@@ -62,11 +64,12 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 
-
+  I think the testing part was good, as coming up with negative testcases are tough. 
 
 - What is one thing you would do differently next time you work with AI on a coding task?
 
-
+  I think It worked well this time, So I would probabily continue the same approach next time as well.
 
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
 
+  I think it is useful as a tool with us engineers monitoring. As it still does some mistakes but replies in a more confident way that it is correct unless you double check for it. 
